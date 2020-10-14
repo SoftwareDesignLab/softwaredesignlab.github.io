@@ -1,0 +1,26 @@
+<!-- Header -->
+    <div id="header">
+        <div id="nav-wrapper"> 
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    {% for item in site.data.navbar %}
+                    <li class="{%if page.url == item.link%}active{% endif %}">
+                        <a href="{{site.baseurl}}{{item.link}}">              
+                        {{ item.name }}
+                        </a>           
+                    </li>
+                    {% endfor %}    
+                </ul>
+            </nav>
+        </div>
+        <div class="container"> 
+            
+            <!-- Logo -->
+            <div id="logo">
+                <h1><a href="#">1st International Winter School on Software Architecture Research</a></h1>
+                <span class="tag">Month, Day-Day (2020). Virtual </span>
+            </div>
+        </div>
+    </div>
+<!-- Header --> 

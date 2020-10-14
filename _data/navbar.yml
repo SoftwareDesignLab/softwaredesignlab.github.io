@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Speakers
+  link: /speakers
+- name: Organizers
+  link: /organizers
+- name: Activities
+  link: /activities
